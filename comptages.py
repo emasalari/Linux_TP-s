@@ -2,17 +2,17 @@
 # -*- coding: utf8 -*-
 
 
-import sys, os
+import sys,os
 
 
 os.system("clear")
 
 if len(sys.argv)>1:
     repertoire = sys.argv[1]
-    print("repertoire = ",repertoire)
 else:
     repertoire = "."
 
+print("repertoire = ",repertoire)
 extensions = {}
 files = {}
 nbTotal = 0
