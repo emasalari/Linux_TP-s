@@ -13,6 +13,7 @@ else:
     repertoire = "."
 
 print("repertoire = ",repertoire)
+
 extensions = {}
 files = {}
 nbTotal = 0
