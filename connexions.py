@@ -6,7 +6,12 @@ import sys,os,re
 
 
 os.system("clear")
-os.system("last -w > last.txt")
+#os.system("last -w > last.txt")
+
+if len(sys.argv) == 2:
+    parameter = sys.argv[1].lower()
+
+
 
 
 with open("last.txt", "r") as f:
@@ -23,10 +28,11 @@ def login():
                 # take the part before "@" as a username
                 login = re.split("@",line)
                 f.write(j+". "+login[0]+"\n")
-                print(line, " is recorded.")
+                print(j+". "+login[0])
                 i +=1
             else:
-                print(line," I didn't find anything on this line")
+                # to print in the same line, I used "line[:-1]", to remove "\n" at the EOL
+                print("----------------------------------------")
         
 # régulière qui extrait : le nom du mois et le numéro du jour dans le mois (la date)
 
@@ -38,17 +44,14 @@ def dayAndMonth():
             if re.search(r'.@', line):
                 j = str(i)
                 # take the part before "@" as a username
-#                date = re.split(" ",line)
-#                ourDate = date[:6]
-                myRE = line.strip(':')
-                print(j+". "+line[:-1],"\t stripped =====> ",myRE)
+                date = line.rsplit(sep="       ",maxsplit=2)
+                date = str(date[2:3])[2:9]
                 
-                
-#                f.write(j+". "+ourDate+"\n")
-#                print(line, " is recorded.")
+                f.write(j+". "+date+"\n")
+                print(j+".",date)
                 i +=1
-#            else:
-#                print(line," I didn't find the date on this line")
+            else:
+                print("----------------------------------------")
    
 
 
@@ -76,8 +79,16 @@ def dayAndMonth():
 # meynard s’est connecté les : 24 septembre (1 fois), 23 septembre (1 fois)
 
 
-#login()
-dayAndMonth()
+
+while parameter != 'quit':
+
+    if parameter == 'login':
+        login()
+    elif parameter == 'day':
+        dayAndMonth()
+    elif parameter == 'quit':
+        break
+    parameter = input("\nYour options are: login,day,quit: ").lower()
 
 
 
