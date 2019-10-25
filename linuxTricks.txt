@@ -13,7 +13,7 @@
 13. Ctrl+Alt+Del: Log out
 14. Alt+Esc: as a web dev. You can quickly switch between two applications.
 15. cd -: Switch back to the last working directory
-16. cd ~or cd: Go back to home directory
+16. cd ~ or cd: Go back to home directory
 17. ls -l or ll: List the contents of a directory
 18. command_1; command_2; command_3: Running multiple commands in one single command
 19. command_1 && command_2: Running multiple commands in one single command only if the previous command was successful
@@ -25,7 +25,6 @@
 25. yes | command_or_script: Using yes command for commands or scripts that need interactive response
 26. > filename: Empty a file without deleting it
 27. grep -Pri Search_Term path_to_directory: Find if there are files containing a particular text
-27. Ctrl+D: 
 28. pipe: 
 29. Shift+Insert: Inserting the copy buffer
 30. sudo apt update: 
@@ -53,7 +52,6 @@
 52. sudo apt-get remove linux-image-VERSION: Removing the old Linux kernels that you manually installed
 53. sudo apt-get remove package-name1 package-name2: remove a program
 54. du -h /var/lib/snapd/snaps: Shows all the older versions of your snap apps
-55. 
 
 
 
