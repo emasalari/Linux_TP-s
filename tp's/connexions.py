@@ -6,7 +6,7 @@ import sys,os,re
 
 
 os.system("clear")
-#os.system("last -w > last.txt")
+#os.system("last -w > ./resources/last.txt")
 
 if len(sys.argv) == 2:
     parameter = sys.argv[1].lower()
@@ -14,12 +14,12 @@ if len(sys.argv) == 2:
 
 
 
-with open("last.txt", "r") as f:
+with open("./resources/last.txt", "r") as f:
     lines = f.readlines()
 
 # régulière qui extrait : le login
 def login():
-    with open("connexions_login.txt", "w") as f:
+    with open("./resources/connexionsLogin.txt", "w") as f:
         i = 1
         for line in lines:
             # Find the lines that have at least one "@" in it.
@@ -37,7 +37,7 @@ def login():
 # régulière qui extrait : le nom du mois et le numéro du jour dans le mois (la date)
 
 def dayAndMonth():
-    with open("connexions_dayAndMonth.txt", "w") as f:
+    with open("./resources/connexionsDayAndMonth.txt", "w") as f:
         i = 1
         for line in lines:
             # Find the lines that have at least one "@" in it.
