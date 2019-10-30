@@ -32,16 +32,10 @@ Here is some command lines to *install* and *run* apps in *Ubuntu Linux* termina
 		sudo apt install default-jre
 		sudo snap install --classic eclipse
 	
-
 4. **Skype**, 
 
    Execution: `skype` or `skypeforlinux`\
    Installation: 
+   >	From *snap* repository: 
 
-   ​	From snap repository:
-
-   ​		sudo snap install skype --classic
-
-   ​		
-
-​		
+   		sudo snap install skype --classic
