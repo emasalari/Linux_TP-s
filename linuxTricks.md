@@ -57,7 +57,7 @@ Here is some linux command line tricks, executable in *Ubuntu Linux* terminal:
 51. `sudo dpkg --list 'linux-image*'`: List all installed Linux kernels 
 52. sudo apt-get remove linux-image-VERSION: Removing the old Linux kernels that you manually installed
 53. `sudo apt-get remove package-name1 package-name2`: remove a program
-
+54. `lscpu`: fetch CPU details from the files sysfs and /proc/cpuinfo
 
 
 
