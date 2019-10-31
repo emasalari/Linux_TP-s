@@ -1,2 +1,2 @@
-# All interesting things about Ubuntu Linux
+# Interesting things about Ubuntu Linux
 
