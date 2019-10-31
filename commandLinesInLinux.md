@@ -39,10 +39,13 @@ Here is some command lines to *install* and *run* apps in *Ubuntu Linux* termina
    >	From *snap* repository: 
    
    		sudo snap install skype --classic
-   >	From *the Skype website*
+   >	From *the Skype website*:
    
-			lscpu: to fetch CPU details from the files sysfs and /proc/cpuinfo
-			sudo dpkg --add-architecture i386: to enable multiarch in order to achieve better compatibility for programs on your 64-bit Ubuntu system	
-			wget https://repo.skype.com/latest/skypeforlinux-64.deb
-			sudo apt-get install gdebi: installing the downloaded .deb package
-			sudo gdebi skypeforlinux-64.deb: download the Skype package through gdebi
+			`lscpu`: to fetch CPU details from the files sysfs and /proc/cpuinfo
+			`sudo dpkg --add-architecture i386`: to enable multiarch in order to achieve better compatibility for programs on your 64-bit Ubuntu system	
+			`wget https://repo.skype.com/latest/skypeforlinux-64.deb`: Download the latest Skype .deb package
+			`sudo apt-get install gdebi`: installing the downloaded .deb package
+			`sudo gdebi skypeforlinux-64.deb`: download the Skype package through gdebi
+	Updating Skype;
+	
+	Add `deb [arch=amd64] https://repo.skype.com/deb stable main` to the `/etc/apt/sources.list.d/skype-stable.list`
