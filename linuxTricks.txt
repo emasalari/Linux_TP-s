@@ -52,6 +52,11 @@
 52. sudo apt-get remove linux-image-VERSION: Removing the old Linux kernels that you manually installed
 53. sudo apt-get remove package-name1 package-name2: remove a program
 54. du -h /var/lib/snapd/snaps: Shows all the older versions of your snap apps
+55. pip3 install numpy scipy matplotlib pandas opencv-python pandas-datareader beautifulsoup4 scikit-learn yfinance --upgrade --no-cache-dir
+56. sudo apt install python3.7 python3.7-dev python3.7-venv
+57. python3.7 -m venv work3.7: Create a new environment
+58. source work3.7/bin/activate: activate python environment
+59. 
 
 
 
