@@ -22,28 +22,28 @@ Here is some linux command line tricks, executable in *Ubuntu Linux* terminal:
 16. `cd ~` or `cd`: Go back to home directory
 17. `ls -l` or `ll`: List the contents of a directory
 18. `command_1; command_2; command_3`: Running multiple commands in one single command
-19. `command_1 && command_2`: Running multiple commands in one single command only if the previous command was successful
+19. `command_1 && command_2`: Running multiple commands only if the previous command was successful
 20. `Ctrl+R search_term`: Easily search and use the commands that you had used in the past
 21. `Ctrl+A` and `Ctrl+E` or `Home` and `End` key: Move to beginning or end of line
 22. `!$` or `Alt+.` : Reuse the last item from the previous command with !$
 23. `!!` : Reuse the previous command in present command with !!
 24. `alias gerp=grep`: Using alias to fix typos
-25. `yes | command_or_script`: Using yes command for commands or scripts that need interactive response
+25. `yes | command_or_script`: Yes command for commands or scripts that need interactive response
 26. `>` filename: Empty a file without deleting it
 27. `grep -Pri Search_Term path_to_directory`: Find if there are files containing a particular text
 28. `|` (pipe line): 
 29. `Shift+Insert`: Inserting the copy buffer
-30. `sudo apt update` or `sudo apt-get update`: Download package information from all configured sources at */etc/apt/sources.list* file.
-31. `sudo apt upgrade` or `sudo apt-get upgrade`: Install available upgrades of all packages currently installed on the system from the sources configured via sources.list file.
-32. `sudo apt full-upgrade`: full-upgrade performs the function of upgrade but will remove currently installed packages if this is needed to upgrade the system as a whole.
+30. `sudo apt update`:Download package information from all configured sources at */etc/apt/sources.list* file.
+31. `sudo apt upgrade`: Install available upgrades of all installed packages from sources.list file.
+32. `sudo apt full-upgrade`: upgrade and remove old files.
 33. `sudo apt update && sudo apt upgrade -y`: Execute two command with preanswered question Yes.
 34. `sudo apt install <package_1> <package_2> <package_3>`: 
-35. `sudo apt install <package_name> --no-upgrade`: install a package, but don’t want to upgrade it, if it is already installed.
-36. `sudo apt install <package_name> --only-upgrade`: upgrade a package but don’t want to install it (if it’s not already installed)
+35. `sudo apt install <package_name> --no-upgrade`: install, but don’t upgrade it, if it is already installed.
+36. `sudo apt install <package_name> --only-upgrade`: upgrade but don’t it (if it’s not already installed)
 37. `sudo apt install <package_name>=<version_number>`: install a specific version of an application
-38. `sudo apt purge <package_name>`: removes everything related to a package including the configuration files.
+38. `sudo apt purge <package_name>`: removes related files to a package including the configuration files.
 39. `apt remove`: just removes the binaries of a package. It leaves residue configuration files.
-40. `apt show <package_name>`: show information about the given package(s) like its dependencies, installation and download size, different sources the package is available from, the description of the content of the package among other things
+40. `apt show <package_name>`: show information about the given package(s).
 41. `apt list --upgradeable`: see all the packages that have a newer version ready to be upgraded
 42. `apt list --installed`: all the installed packages on the system
 43. `apt list --all-versions`: list all the packages available for your system
@@ -52,10 +52,10 @@ Here is some linux command line tricks, executable in *Ubuntu Linux* terminal:
 46. `sudo du -sh /var/cache/apt`: size of APT cache in Ubuntu
 47. `sudo apt-get autoclean`: remove only the outdated packages
 48. `sudo apt-get clean`: clean out the cache in its entirety
-49. `du -sh ~/.cache/thumbnails`: check the size of thumbnail cache in your user account at the location ~/.cache/thumbnails
+49. `du -sh ~/.cache/thumbnails`: check the size of thumbnail cache at the location ~/.cache/thumbnails
 50. `rm -rf ~/.cache/thumbnails/*`: clear the thumbnail cache 
 51. `sudo dpkg --list 'linux-image*'`: List all installed Linux kernels 
-52. sudo apt-get remove linux-image-VERSION: Removing the old Linux kernels that you manually installed
+52. `sudo apt-get remove linux-image-VERSION`: Removing the old manually installed Linux kernels.
 53. `sudo apt-get remove package-name1 package-name2`: remove a program
 54. `lscpu`: fetch CPU details from the files sysfs and /proc/cpuinfo
 
