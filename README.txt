@@ -56,13 +56,4 @@
 56. sudo apt install python3.7 python3.7-dev python3.7-venv
 57. python3.7 -m venv work3.7: Create a new environment
 58. source work3.7/bin/activate: activate python environment
-
-
-
-
-
-
-
-
-
-
+59. python-32 -c 'import sys;print("%x" % sys.maxsize, sys.maxsize > 2**32)': if the response = '7fffffff' --> 32bit and if response = '7fffffffffffffff' ---> 64bit
