@@ -2,8 +2,7 @@
 # -*- coding: utf8 -*-
 
 
-import sys
-import os
+import sys, os
 
 os.system("clear")
 

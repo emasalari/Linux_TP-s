@@ -49,3 +49,16 @@ Here is some command lines to *install* and *run* apps in *Ubuntu Linux* termina
 	Updating Skype;
 	
 	Add `deb [arch=amd64] https://repo.skype.com/deb stable main` to the `/etc/apt/sources.list.d/skype-stable.list`
+	
+5. **Oracle,** `cx_oracle` **module for Python**,
+	
+	1. ```
+	   python -m pip install cx_Oracle --upgrade
+	   ```
+
+6. **Install Oracle Client**
+
+7. ##### Install `rlwrap` Package on Ubuntu
+
+    	​	`sudo apt-get install -y rlwrap`    
+

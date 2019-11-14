@@ -56,13 +56,20 @@
 56. sudo apt install python3.7 python3.7-dev python3.7-venv
 57. python3.7 -m venv work3.7: Create a new environment
 58. source work3.7/bin/activate: activate python environment
-
-
-
-
-
-
-
-
+59. echo $0: to see which shell you are using
+60. echo $SHELL: To find the shell you have on the default environment
+61. echo "$$": to find the PID of the current instance of shell
+62. ps -p <PID>: to find the process having the PID
+63. ps -p "$$": 61 and 62 together
+64. cat /etc/shells: how many shells are installed?
+65. ~/.bashrc or ~/.zshrc: bash or zsh configuration file
+66. source ~/.zshrc or source ~/.bashrc: read and execute the content of a file(generally set of commands)
+67. CTRL+L: Show full address in Nautilus File Manager
+68. CTRL+H: Show hidden files and folders in Nautilus File Manager
+69. Install fonts in Ubuntu: 
+	1. cd /usr/share/fonts/truetype: Go to truetype font system folder
+	2. mkdir yourFontFolder: Create a folder to put your fonts in
+	3. cp ./yourFontFolder/* /usr/share/fonts/truetype/yourFontFolder: Copy your fonts to your new folder
+	4. sudo fc-cache -f -v: refresh your cache or just log out and log in to take effect the changes
 
 
