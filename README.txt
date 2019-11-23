@@ -75,4 +75,5 @@
 71. nautilus .: Open current folder in nautilus 
 72. SUPER+NumKeys: Execute nth favorite application in the left sidebar.
 73. which [filename1] [filename2] ...: Ex: which python cpp java $SHELL firefox; To locate the executable file associated with the given command by searching it in the path environment variable.
+74. whereis Linux-Command: To locates the binary, source, and manual page files for a command.
 
