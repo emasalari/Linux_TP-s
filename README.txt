@@ -72,5 +72,6 @@
 	2. mkdir yourFontFolder: Create a folder to put your fonts in
 	3. cp ./yourFontFolder/* /usr/share/fonts/truetype/yourFontFolder: Copy your fonts to your new folder
 	4. sudo fc-cache -f -v: refresh your cache or just log out and log in to take effect the changes
+71. nautilus .: Open current folder in nautilus 
 
 
