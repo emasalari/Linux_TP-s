@@ -11,9 +11,8 @@ Here is some command lines to *install* and *run* apps in *Ubuntu Linux* termina
 	Execution: `code`\
 	Installation:
 		
-	
-		sudo apt install code
-	
+		`snap install code --classic`
+			
 2. **Typora**, a markdown editor
 
     Execution: `typora`\
