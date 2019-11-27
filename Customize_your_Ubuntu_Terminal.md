@@ -8,18 +8,18 @@ Customize your Ubuntu Terminal:
     - If it's not installed! run the command below:\
         `sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install zsh`
 
-2. Make ZSH your default Terminal:
+2. Make ZSH your default Terminal:   
     - If you have root access:\
         `chsh -s /usr/local/bin/zsh` \
     or\
         `chsh -s $(which zsh)`          # chsh stands for '**ch**ange **sh**ell'
 
-    - If you have **NOT** root access:\
-        - Create .bash_profile in your home directory and add these lines:\
+    - If you have **NOT** root access:
+        - Create `.bash_profile` in your home directory and add these lines:\
             `export SHELL=/bin/zsh`
             `exec /bin/zsh -l`
 
-3. Check if ZSH is your default Terminal:\
+3. Check if ZSH is your default Terminal:   
     - `echo $0`\
     or
     - `echo $SHELL`
@@ -50,13 +50,13 @@ Customize your Ubuntu Terminal:
     - `ZSH_THEME="random"`
 
 
-Resources:\
-    - https://ohmyz.sh/\
-    - https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH\
-    - https://github.com/ohmyzsh/ohmyzsh\
-    - https://github.com/ohmyzsh/ohmyzsh/wiki/Themes\
-    - https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins\
-    - https://github.com/zsh-users/zsh-syntax-highlighting\
-    - https://github.com/zsh-users/zsh-autosuggestions\
-    - https://github.com/ohmyzsh/ohmyzsh/wiki/Customization\
-    - http://www.nparikh.org/unix/prompt.php#zsh\
+Resources:    
+    - https://ohmyz.sh/   
+    - https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH   
+    - https://github.com/ohmyzsh/ohmyzsh   
+    - https://github.com/ohmyzsh/ohmyzsh/wiki/Themes   
+    - https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins   
+    - https://github.com/zsh-users/zsh-syntax-highlighting   
+    - https://github.com/zsh-users/zsh-autosuggestions   
+    - https://github.com/ohmyzsh/ohmyzsh/wiki/Customization   
+    - http://www.nparikh.org/unix/prompt.php#zsh   
