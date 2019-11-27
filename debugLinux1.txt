@@ -1,0 +1,679 @@
+amir.shirali-pour@etu.umontpellier.fr@i3:~$ mousepad debugLinux.txt
+
+(mousepad:19245): Gtk-WARNING **: 11:09:04.181: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:19245): Gtk-WARNING **: 11:09:04.181: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:19245): Gtk-WARNING **: 11:09:04.181: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:19245): Gtk-WARNING **: 11:09:04.181: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:19245): Gtk-WARNING **: 11:09:04.181: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+^C
+amir.shirali-pour@etu.umontpellier.fr@i3:~$ history 
+    1  whoami
+    2  id
+    3  who
+    4  hostname
+    5  exit
+    6  hostname
+    7  who
+    8  pwd
+    9  lscpu
+   10  ifconfig
+   11  date 
+   12  df -h
+   13  cls
+   14  clear
+   15  df -h
+   16  du -sh
+   17  ls
+   18  top
+   19  exit
+   20  code
+   21  emacs
+   22  clear
+   23  mkdir SYSTEME
+   24  ls
+   25  cd SYSTEME/
+   26  ls
+   27  mkdir TP1
+   28  ls
+   29  cd TP1/
+   30  emacs mesChanteursPréférés
+   31  xemacs amir.txt
+   32  cat mesChanteursPréférés
+   33  clear
+   34  mv mesChanteursPréférés JeLesAime
+   35  ls
+   36  cat JeLesAime 
+   37  cat mesChanteursPréférés~ 
+   38  emacs mesChanteursPréférés~ 
+   39  ls
+   40  rm JeLesAime 
+   41  ls
+   42  mv mesChanteursPréférés~ mesChanteursPréférés
+   43  ls
+   44  cp mesChanteursPréférés JeLesAime
+   45  ls
+   46  mv JeLesAime OuiJeLesAime
+   47  ls
+   48  chmod OuiJeLesAime 
+   49  clear
+   50  ls -l
+   51  chmod OuiJeLesAime 551
+   52  chmod 551 OuiJeLesAime
+   53  ls -l
+   54  clear
+   55  chmod 551 OuiJeLesAime
+   56  ls -l
+   57  chmod u+r-w+x,g+r-w+x,o-r-w-x  OuiJeLesAime
+   58  ls -l
+   59  chmod a+r-w+x  OuiJeLesAime
+   60  ls -l
+   61  ls -la
+   62  clear
+   63  ls -l
+   64  ls -la
+   65  cat OuiJeLesAime 
+   66  more OuiJeLesAime 
+   67  clear
+   68  more OuiJeLesAime 
+   69  clear
+   70  less OuiJeLesAime 
+   71  cd ~
+   72  pwd
+   73  cd SYSTEME/
+   74  pwd
+   75  cd ..
+   76  pwd
+   77  cd SYSTEME/
+   78  cd TP1/
+   79  pwd
+   80  cd ..
+   81  pwd
+   82  cd TP1/
+   83  pwd
+   84  cd ../..
+   85  pwd
+   86  cd SYSTEME/
+   87  cd TP1/
+   88  cd ~
+   89  pwd
+   90  clear
+   91  tar --help
+   92  clear
+   93  tar -cf archive.tar 
+   94  ls
+   95  tar -czvf S.tgz SYSTEME/
+   96  ls -l
+   97  rm -R SYSTEME/
+   98  ls -l
+   99  tar -xzvf S.tgz
+  100  ls -l
+  101  ls -R SYSTEME/
+  102  ls
+  103  ls -R SYSTEME/
+  104  mkdir wen
+  105  ls
+  106  rmdir wen
+  107  ls
+  108  rmdir SYSTEME/
+  109  rm -R SYSTEME/
+  110  ls
+  111  tar --help
+  112  ls
+  113  tar -tvf S.tgz
+  114  tar -tzvf S.tgz
+  115  tar -tf S.tgz
+  116  ls
+  117  tar -xvf S.tgz
+  118  ls
+  119  ls -R SY
+  120  ls -R SYSTEME/
+  121  cd SYSTEME/
+  122  ls
+  123  cd TP1/
+  124  ls
+  125  cd ~
+  126  pwd
+  127  cd SYSTEME/
+  128  cd TP1/
+  129  cd ../..
+  130  cd SYSTEME/
+  131  cd TP1/
+  132  cd ..
+  133  cd SYSTEME/
+  134  cd TP1/
+  135  mkdir wen
+  136  cd wen
+  137  cd ../../..
+  138  tar -cvzf comp.tgz
+  139  tar -cvzf comp.tgz SYSTEME/
+  140  ls
+  141  rm S.tgz
+  142  ls -l
+  143  ls
+  144  rmdir SYSTEME
+  145  rm -R SYSTEME
+  146  ls
+  147  tar -xvf comp.tgz
+  148  ls
+  149  cd SYSTEME/
+  150  ls
+  151  cd TP1/
+  152  ls
+  153  cd wen/
+  154  emacs amir.txt
+  155  ls
+  156  emacs \#amir.txt# 
+  157  ls
+  158  rm \#amir.txt# 
+  159  ls
+  160  cd ~
+  161  pwd
+  162  cd SYSTEME/
+  163  pwd
+  164  path
+  165  echo $PATH
+  166  cd ~
+  167  ls
+  168  rmdir -SYSTEME/
+  169  rm -R SYSTEME/
+  170  ls
+  171  echo $path
+  172  echo $PATH
+  173  clear
+  174  pwd
+  175  ls
+  176  tar -xvzf comp.tgz 
+  177  tar -tzf comp.tgz 
+  178  clear
+  179  whoami
+  180  id
+  181  who
+  182  hostname
+  183  clear
+  184  lscpu
+  185  clear
+  186  ifconfig 
+  187  date
+  188  df -h
+  189  clear
+  190  top
+  191  exit
+  192  hostname
+  193  who
+  194  whoami
+  195  exit
+  196  emacs
+  197  exit
+  198  www
+  199  WWW
+  200  sudo firefox 
+  201  firefox 
+  202  ls
+  203  cd Documents/
+  204  ls
+  205  ls > rep.txt
+  206  cat rep.txt 
+  207  ls
+  208  cd ~
+  209  ls
+  210  ls > rep.txt
+  211  clear
+  212  ls > rep
+  213  cat rep
+  214  date 
+  215  date >> rep
+  216  cat rep
+  217  cat rep; rm rep
+  218  clear
+  219  ls
+  220  clear
+  221  cat rep.txt 
+  222  date >> rep.txt 
+  223  ls
+  224  clear
+  225  cat rep.txt 
+  226  cat rep.txt ; rm rep.txt 
+  227  ls
+  228  who
+  229  clear
+  230  hostname
+  231  who
+  232  clear
+  233  (hostname;who) >> info
+  234  cat info 
+  235  clear
+  236  grep --help
+  237  ls --help
+  238  clear
+  239  ls --help
+  240  clear
+  241  ls --help
+  242  clear
+  243  ls -la | grep 17
+  244  ls -la | grep 17 10
+  245  ls -la | grep "17 10"
+  246  clear
+  247  ls -l
+  248  clear
+  249  ls
+  250  ls -l
+  251  ls -la
+  252  ls -la | grep "sept. 17"
+  253  ls --help
+  254  emacs
+  255  pwd
+  256  ls
+  257  cd Documents/
+  258  pwd
+  259  cd
+  260  pwd
+  261  emacs
+  262  emacs&
+  263  clear
+  264  ls
+  265  ls -l
+  266  ls -la
+  267  clear
+  268  ps -edf
+  269  ps -edf | grep "emacs"
+  270  clear
+  271  ps -edf | grep emacs
+  272  ps -edf
+  273  ps -edf | grep emacs
+  274  kill --help
+  275  pwd
+  276  ls
+  277  pwd
+  278  tar -czvf Documents/ cherif.tgz 
+  279  tar -czvf /Mac.txt cherif.tgz 
+  280  sudo tar -czvf /Mac.txt cherif.tgz 
+  281  ls
+  282  tar -czvf ./Documents/ cherif.tgz 
+  283  tar --help
+  284  tar -czvf  cherif.tgz /Documents
+  285  tar -cvf Documents/ cherif.tgz 
+  286  ls
+  287  tar -cvf  cherif.tgz Mac.txt 
+  288  ls
+  289  tar -tvf  cherif.tgz 
+  290  kill --help
+  291  clear
+  292  kill --help
+  293  ps -edf
+  294  emacs&
+  295  ps -edf
+  296  kill 30956
+  297  kill 30962
+  298  kill -30956
+  299  kill -9 30962
+  300  kill -9 30956
+  301  ps -edf
+  302  kill -9 30398
+  303  clear
+  304  ps -edf
+  305  emacs&
+  306  ps -edf
+  307  kill -9 31234
+  308  kill --help
+  309  man kill 
+  310  man signal
+  311  clear
+  312  curl www.lirmm.fr/~pompidor/CREUFOP/Mac.txt > MacAmir.t
+  313  ls
+  314  cat MacAmir.txt 
+  315  man find
+  316  find --help
+  317  find /usr emacs
+  318  find ~ Mac.txt
+  319  emacs&
+  320  ls
+  321  mv --help
+  322  ls
+  323  mv MacAmir.txt /Bureau
+  324  mv MacAmir.txt ./SYSTEME/
+  325  ls
+  326  cd SYSTEME/
+  327  ls
+  328  cd ..
+  329  ls
+  330  find -name MacAmir.txt
+  331  find -name emacs /usr
+  332  find -name /usr emacs 
+  333  find /usr -name emacs 
+  334  find /usr -name emacs
+  335  clear
+  336  find /usr -name emacs
+  337  find / -name emacs 2> /dev/null
+  338  ls
+  339  mv cherif.tgz comp.tgz SYSTEME/
+  340  ls
+  341  cd SYSTEME/
+  342  ls
+  343  find -name "*.tgz" 
+  344  clear
+  345  ls
+  346  find -name "*.tgz"
+  347  find -name "*.tgz" -exec rm {} ;\
+  348  find -name "*.tgz" -exec rm {} \;
+  349  ls
+  350  emacs amir.txt
+  351  emacs amir2.txt
+  352  ls
+  353  find -name "*.txt"
+  354  find -name "*.txt" -exec rm {} \;
+  355  find -name "*.txt" 
+  356  find -name "*.txt" -exec rm {} \;
+  357  ls
+  358  clear
+  359  cd
+  360  clear
+  361  ls -l | grep "sept. 16"
+  362  alias "wen=ls -l | grep "sept. 16"
+  363  alias --help
+  364  alias "wen=ls -l | grep "sept. 16""
+  365  alias 'wen=ls -l | grep "sept. 16"'
+  366  wen
+  367  emacs .bashrc
+  368  exit
+  369  firefox&
+  370  wen
+  371  emacs .bashrc
+  372  exit
+  373  chromium-browser 
+  374  exit
+  375  pwd
+  376  ls
+  377  cd workspace/
+  378  ls
+  379  ls -la
+  380  ls
+  381  cd HMIN111/
+  382  ls
+  383  ls -R bin
+  384  ls -R src
+  385  cd src
+  386  ls
+  387  ls -la
+  388  ls
+  389  cd tp1_2019/
+  390  ls
+  391  cat MonPremierProgramme.java 
+  392  cd /HMIN111
+  393  cd ../..
+  394  ls
+  395  cd bin
+  396  ls
+  397  cd tp1_2019/
+  398  ls
+  399  cat MonPremierProgramme.class 
+  400  clear
+  401  pwd
+  402  exit
+  403  pwd
+  404  who
+  405  id
+  406  ls
+  407  sudo add-apt-repository -y ppa:x2go/stable
+  408  who
+  409  lsb_release 
+  410  lsb_release --help
+  411  lsb_release -a
+  412  clear
+  413  inxi -S
+  414  exit
+  415  emacs a
+  416  emacs b
+  417  emacs c
+  418  firefox 
+  419  emacs d
+  420  ls
+  421  mkdir DUMP
+  422  cd DUMP
+  423  emacs wen.sh
+  424  emacs wen.sh&
+  425  clear
+  426  emacs a
+  427  cd ..
+  428  ls
+  429  firefox 
+  430  firefox&
+  431  grep --help
+  432  ls
+  433  ls -R DUMP/
+  434  mv ./DUMP/wen.sh .
+  435  ls
+  436  ./wen.sh
+  437  chmod U+x wen.sh
+  438  chmod u+x wen.sh
+  439  ls -l
+  440  ./wen.sh
+  441  emacs wen.sh&
+  442  emacs amir.sh&
+  443  ./amir.sh
+  444  ls -l
+  445  chmod u+x amir.sh
+  446  ls -l
+  447  ./amir.sh
+  448  find --help
+  449  find . bonjour
+  450  clear
+  451  find ~ bonjour
+  452  find --help
+  453  man find
+  454  grep bonjour a
+  455  grep bonjour b
+  456  grep hello b
+  457  ./wen.sh 
+  458  ls
+  459  ./wen.sh 
+  460  ./wen.sh a b
+  461  ./wen.sh a
+  462  code
+  463  exit
+  464  firefox &
+  465  code&
+  466  ./wen.sh for
+  467  ls DUMP/
+  468  mv DUMP/* .
+  469  ./wen.sh hello
+  470  ls DUMP/
+  471  ls DUMP/ls
+  472  ls
+  473  clear
+  474  ls
+  475  cd Linux/
+  476  ls
+  477  ./bonjour.py
+  478  chmod u+x bonjour.py
+  479  ./bonjour.py
+  480  ./bonjour.py amir
+  481  ./bonjour.py amir hassina cherif
+  482  ./bonjour.py amir hassina cherif ali ahh hh kkd
+  483  clear
+  484  ./bonjour.py amir hassina cherif ali ahh hh kkd
+  485  ./bonjour.py 45
+  486  ./bonjour.py 3
+  487  ./bonjour.py 4
+  488  ./bonjour.py 6
+  489  ./bonjour.py 13
+  490  ./bonjour.py 40
+  491  ./bonjour.py 6
+  492  ./bonjour.py 10
+  493  ./bonjour.py 15
+  494  ./bonjour.py 100
+  495  code
+  496  ls
+  497  cd Linux/
+  498  ls
+  499  sudo apt update && sudo apt full-upgrade 
+  500  ./bonjour.py 200
+  501  ./bonjour.py 100
+  502  ./bonjour.py 10
+  503  clear
+  504  ./bonjour.py 10
+  505  ./bonjour.py 100
+  506  clear
+  507  ./bonjour.py 50
+  508  ./test.py
+  509  chmod u+x test.py
+  510  ./test.py
+  511  clear
+  512  ./test.py
+  513  ./bonjour.py 
+  514  ./bonjour.py 20
+  515  clear
+  516  ./bonjour.py 20
+  517  cle
+  518  clear
+  519  ./bonjour.py 20
+  520  clear
+  521  ./bonjour.py 20
+  522  ./bonjour.py 200
+  523  ./bonjour.py 3
+  524  clear
+  525  ./bonjour.py 10
+  526  python --version
+  527  python3 -v
+  528  apt list --installed | grep python
+  529  apt list --installed | grep python3
+  530  apt-get update
+  531  sudo apt-get install python 3.7.4
+  532  echo $PATH
+  533  clear
+  534  echo $PATH
+  535  ./bonjour.py 10
+  536  cd Linux/
+  537  ./bonjour.py 10
+  538  python3 --version
+  539  emacs ~/.bashrc
+  540  bonjour.py
+  541  exit
+  542  bonjour.py
+  543  ./bonjour.py
+  544  cd Linux/
+  545  bonjour.py 
+  546  ./bonjour.py 
+  547  ./bonjour.py 20
+  548  emacs ~/.bashrc
+  549  ./bonjour.py 20
+  550  exit
+  551  ./bonjour.py 20
+  552  cd Linux/
+  553  ./bonjour.py 20
+  554  exit
+  555  ./bonjour.py 20
+  556  cd Linux/
+  557  ./bonjour.py 20
+  558  emacs ~/.bashrc
+  559  ./bonjour.py 20
+  560  exit
+  561  cd "/home/e20190009681/Technologie du Web" ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3.7 /home/e20190009681/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 40795 /home/e20190009681/Linux/test.py 
+  562  cd "/home/e20190009681/Technologie du Web" ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3.7 /home/e20190009681/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 38831 /home/e20190009681/Linux/test.py 
+  563  cd "/home/e20190009681/Technologie du Web" ; env 'LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:' 'LESSCLOSE=/usr/bin/lesspipe %s %s' XDG_MENU_PREFIX=xfce- LANG=fr_FR.UTF-8 DISPLAY=:0.0 NODE_PATH=/usr/lib/node_modules GTK_OVERLAY_SCROLLING=0 COLORTERM=truecolor XDG_VTNR=7 SSH_AUTH_SOCK=/run/user/21912984/keyring/ssh MANDATORY_PATH=/usr/share/gconf/xubuntu.mandatory.path S_COLORS=auto GLADE_CATALOG_PATH=: XDG_SESSION_ID=c12 XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/amir.shirali-pour@etu.umontpellier.fr USER=amir.shirali-pour@etu.umontpellier.fr GLADE_MODULE_PATH=: PAGER=most DESKTOP_SESSION=xubuntu DEFAULTS_PATH=/usr/share/gconf/xubuntu.default.path QT_QPA_PLATFORMTHEME=gtk2 PWD=/home/e20190009681 R_LIBS=/net/apps/R-packages HOME=/home/e20190009681 ALSA_CARD=0 SSH_AGENT_PID=22243 QT_ACCESSIBILITY=1 XDG_SESSION_TYPE=x11 XDG_DATA_DIRS=/usr/share/xfce4:/usr/share/xubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share http_proxy=http://prodsif-pack.infra.umontpellier.fr:3128 XDG_SESSION_DESKTOP=xubuntu no_proxy=localhost,127.0.0.1,prodpeda-venus.infra.umontpellier.fr,prodpeda-couchdb1.infra.umontpellier.fr,www.iptad-test.umontpellier.fr,prodpeda-samba.umontpellier.fr GLADE_PIXMAP_PATH=: CLUTTER_BACKEND=x11 TERM=xterm-256color VTE_VERSION=5202 SHELL=/bin/bash XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0 XDG_CURRENT_DESKTOP=XFCE GPG_AGENT_INFO=/run/user/21912984/gnupg/S.gpg-agent:0:1 SHLVL=3 XDG_SEAT=seat0 WINDOWID=65011715 GDMSESSION=xubuntu LOGNAME=amir.shirali-pour@etu.umontpellier.fr DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/21912984/bus XDG_RUNTIME_DIR=/run/user/21912984 XAUTHORITY=/home/e20190009681/.Xauthority XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session5 XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg ftp_proxy=http://prodsif-pack.infra.umontpellier.fr:3128 SESSION_MANAGER=local/i6:@/tmp/.ICE-unix/22261,unix/i6:/tmp/.ICE-unix/22261 'LESSOPEN=| /usr/bin/lesspipe %s' _=/usr/share/code/bin/../code APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=true VSCODE_CLI=1 ELECTRON_NO_ATTACH_CONSOLE=1 VSCODE_IPC_HOOK=/run/user/21912984/vscode-555ea85d-1.36.0-main.sock 'VSCODE_NLS_CONFIG={"locale":"fr","availableLanguages":{},"_languagePackSupport":true}' VSCODE_LOGS=/home/e20190009681/.config/Code/logs/20191001T161523 AMD_ENTRYPOINT=vs/workbench/services/extensions/node/extensionHostProcess PIPE_LOGGING=true VERBOSE_LOGGING=true VSCODE_IPC_HOOK_EXTHOST=/tmp/vscode-ipc-1518284d-3aeb-46c0-afc5-bff54566e5d6.sock VSCODE_HANDLES_UNCAUGHT_ERRORS=true VSCODE_LOG_STACK=false VSCODE_PREVENT_FOREIGN_INSPECT=true ELECTRON_RUN_AS_NODE=1 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/net/apps/bin PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3.7 /home/e20190009681/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --nodebug --client --host localhost --port 44267 /home/e20190009681/Linux/test.py 
+  564  cd "/home/e20190009681/Technologie du Web" ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3.7 /home/e20190009681/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 34613 /home/e20190009681/Linux/test.py 
+  565  cd "/home/e20190009681/Technologie du Web" ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3.7 /home/e20190009681/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 37229 /home/e20190009681/Linux/test.py 
+  566  cd "/home/e20190009681/Technologie du Web" ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3.7 /home/e20190009681/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 41211 /home/e20190009681/Linux/bonjour.py 
+  567  ./bonjour.py 20
+  568  cd Linux/
+  569  ./bonjour.py 20
+  570  ./bonjour.py 2000
+  571  clear
+  572  bash wen.sh
+  573  ./wen.sh
+  574  cd ..
+  575  ls
+  576  ./wen.sh 
+  577  ls -R DUMP
+  578  mv * ~
+  579  ./wen.sh hello
+  580  clear
+  581  find --help
+  582  clear
+  583  find -type f -exec grep bonjour
+  584  find -type f -exec grep bonjour a
+  585  code
+  586  firefox &
+  587  ls
+  588  cd Linux/
+  589  ls
+  590  ./wen.sh hello
+  591  ./wen.sh bonjour
+  592  grep --help
+  593  exit
+  594  exit
+  595  firefox 
+  596  mousepad 
+  597  gedit 
+  598  firefox &
+  599  clear
+  600  php -S localhost:8000
+  601  cd Technologie\ du\ Web/
+  602  ls
+  603  php -S localhost:8000
+  604  ls
+  605  cd Bureau/
+  606  ls -la
+  607  code
+  608  firefox &
+  609  sudo apt install thefuck
+  610  apt install thefuck
+  611  sudo apt install thefuck
+  612  mkdir Amirsfukehjkhsfljshmkfshklfzkffhks
+  613  cd Amirsfukehjkhsfljshmkfshklfzkffhks
+  614  cd -
+  615  ~
+  616  cd ~
+  617  cd -
+  618  cd Bureau/
+  619  ls
+  620  cd Amirsfukehjkhsfljshmkfshklfzkffhks/
+  621  cd
+  622  firefox &
+  623  rlwrap sqlplus e20190009681/Ema@$1199@oracle.etu.umontpellier.fr:1524/pmaster
+  624  rlwrap sqlplus e20190009681/Ema@$1199@oracle.etu.umontpellier.fr:1523/pmaster
+  625  rlwrap sqlplus "e20190009681/Ema@$1199@oracle.etu.umontpellier.fr:1523/pmaster"
+  626  rlwrap sqlplus e20190009681/Ema241199@oracle.etu.umontpellier.fr:1523/pmaster
+  627  mousepad 
+  628  exit
+  629  cd Base\ de\ données/
+  630  ls
+  631  rlwrap sqlplus e20190009681/Ema241199@oracle.etu.umontpellier.fr:1523/pmaster
+  632  code
+  633  ls
+  634  cd Technologie\ du\ Web/
+  635  ls
+  636  cd ..
+  637  cd Linux/
+  638  ls
+  639  ./bonjour.py 
+  640  ./bonjour.py 6
+  641  ls
+  642  clear
+  643  ls
+  644  ./nombrepremier.py 10
+  645  chmod u+x nombrepremier.py 
+  646  ./nombrepremier.py 10
+  647  mousepad nombrepremier.py 
+  648  clear
+  649  ./nombrepremier.py 15
+  650  ./nombrepremier.py 150
+  651  clear
+  652  ./nombrepremier.py 150
+  653  ls -ltr
+  654  cat nombrepremier.py 
+  655  ./nombrepremier.py 1500
+  656  less nombrepremier.py 
+  657  ./nombrepremier.py 10
+  658  less nombrepremier.py 
+  659  ls -ltr
+  660  less nombrepremier.py 
+  661  ./nombrepremier.py 10
+  662  ls -ltr
+  663  ./nombrepremier.py 10
+  664  mousepad debugLinux.txt
+  665  history 
+amir.shirali-pour@etu.umontpellier.fr@i3:~$ 

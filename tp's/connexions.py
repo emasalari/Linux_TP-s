@@ -6,11 +6,12 @@ import sys,os,re
 
 
 os.system("clear")
-#os.system("last -w > ./resources/last.txt")
+os.system("last -w > ./resources/last.txt")
 
 if len(sys.argv) == 2:
     parameter = sys.argv[1].lower()
-
+else:
+    parameter = None
 
 
 
@@ -32,7 +33,7 @@ def login():
                 i +=1
             else:
                 # to print in the same line, I used "line[:-1]", to remove "\n" at the EOL
-                print("----------------------------------------")
+                print("----------------------------------------> This line is erased")
         
 # régulière qui extrait : le nom du mois et le numéro du jour dans le mois (la date)
 
@@ -56,15 +57,6 @@ def dayAndMonth():
 
 
 
-
-
-
-
-
-
-
-
-
 # régulière qui extrait : le nombre d’heures
 # régulière qui extrait : le nombre de minutes et affichez ces informations
 # régulière qui Affichez: le nombre de connexions par login (via un dictionnaire)
@@ -80,7 +72,7 @@ def dayAndMonth():
 
 
 
-while parameter != 'quit':
+while parameter != ('quit' or None):
 
     if parameter == 'login':
         login()
@@ -89,11 +81,5 @@ while parameter != 'quit':
     elif parameter == 'quit':
         break
     parameter = input("\nYour options are: login,day,quit: ").lower()
-
-
-
-
-
-
 
 
