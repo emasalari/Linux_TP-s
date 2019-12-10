@@ -57,7 +57,13 @@ Here is some command lines to *install* and *run* apps in *Ubuntu Linux* termina
 
 6. **Install Oracle Client**
 
-7. ##### Install `rlwrap` Package on Ubuntu
+   ##### Install `rlwrap` Package on Ubuntu
 
     	​	`sudo apt-get install -y rlwrap`    
+
+7. **Install Oracle Client**
+
+   ##### Install `Packet Tracer` on Ubuntu
+
+    	​	`https://askubuntu.com/questions/1035523/packet-tracer-7-on-ubuntu-18-04-cannot-launch`    
 
