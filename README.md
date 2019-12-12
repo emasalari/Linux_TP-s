@@ -66,4 +66,20 @@ Here is some command lines to *install* and *run* apps in *Ubuntu Linux* termina
    ##### Install `Packet Tracer` on Ubuntu
 
     	​	`https://askubuntu.com/questions/1035523/packet-tracer-7-on-ubuntu-18-04-cannot-launch`    
+	
+8. **GIMP**, A Photo editor 
+
+	Execution: `gimp`\
+	Installation:
+		
+	1. Add the dev PPA:    
+    	​	`sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge`        
+	
+	2. Install or upgrade GIMP to the latest version:    
+		`sudo apt update && sudo apt install gimp gimp-gmic`      
+		
+	3. Revert to GIMP stable release      
+		`sudo apt install ppa-purge && sudo ppa-purge ppa:otto-kesselgulasch/gimp-edge`      
+
+
 
