@@ -12,6 +12,8 @@ Customize your Ubuntu Terminal:
     - If you have root access:\
         `chsh -s /usr/local/bin/zsh` \
     or\
+        `chsh -s /usr/bin/zsh`\
+    or\
         `chsh -s $(which zsh)`          # chsh stands for '**ch**ange **sh**ell'
 
     - If you have **NOT** root access:
@@ -32,7 +34,7 @@ Customize your Ubuntu Terminal:
 
 6. You can add your favorite **plugins** into the file "~/.zshrc". My favorite plugins list is:
     - `plugins=(git python vscode httpie urltools 
-      web-search command-not-found Colored-man-pages 
+      web-search command-not-found colored-man-pages 
       zsh-syntax-highlighting zsh-autosuggestions)`
 
 7. If you are interested in **zsh-syntax-highlighting** and **zsh-autosuggestions** plugins, you can install them by following commands:
