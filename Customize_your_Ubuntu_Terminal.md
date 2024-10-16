@@ -1,4 +1,4 @@
-Customize your Ubuntu Terminal:
+Customize your Linux Terminal:
 ------------------------------
 
 1. Install ***ZSH*** Terminal:
@@ -16,6 +16,8 @@ Customize your Ubuntu Terminal:
     or\
         `chsh -s $(which zsh)`          # chsh stands for '**ch**ange **sh**ell'
 
+      After this change, you need to ***logout*** or ***reboot*** your computer to affect changes.
+
     - If you have **NOT** root access:
         - Create `.bash_profile` in your home directory and add these lines:\
             `export SHELL=/bin/zsh`
@@ -30,7 +32,8 @@ Customize your Ubuntu Terminal:
     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 5. Install **Powerline Fonts** because many themes require installing the Powerline Fonts in order to render properly.
-    - `sudo apt-get install fonts-powerline`
+    - for Debian-based distros: `sudo apt-get install fonts-powerline`
+    - for Fedora-based distros: `sudo dnf install powerline powerline-fonts`
 
 6. You can add your favorite **plugins** into the file "~/.zshrc". My favorite plugins list is:
     - `plugins=(git python vscode httpie urltools 
